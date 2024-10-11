@@ -1,0 +1,109 @@
+/*Estilizando la página*/
+body{
+    width:100%;
+    height:100%;
+    padding: 0 152px 0 152px;
+    font-family: Montserrat;
+    background-color:#e5e5e5;
+}
+
+/*Sección Título*/
+.titulo{
+    width:80%;
+}
+.titulo__texto{
+    width:750px;
+}
+.titulo__texto--titulo{
+    font-weight:700;
+    font-size:30px;
+}
+
+/*Sección Sobre mí*/
+.sobre_mi{
+    width:70%;
+    padding: 65px 20px 50px 10px;
+    margin-right:180px;
+    background-color:#1066df1f;
+    border:0.5px solid #2face6d5;
+    border-radius:15px;
+}
+
+/*Sección Skills, hobbies y formación*/
+.skills__menu--container,
+.hobbies__menu--container{
+    height:150px;
+    width:130px;
+    background-color:#1066df11;
+    padding:10px 0 0 0;
+    border:1.5px solid #052347;
+    border-radius:20px;
+}
+.skils__menu--element,
+.hobbies__menu--element,
+.formation__menu--element{
+    font-size:12px;
+}
+.skills__menu,
+.hobbies__menu,
+.formation__menu{
+    gap:16px;
+}
+.formation__menu--image{
+    height:170px;
+    width:280px;
+    background-color:#1066df11;
+    border:1.5px solid #052347;
+    border-radius:20px;
+}
+
+/*Sección proyectos y contacto*/
+.projects__menu--footer-boton,
+.contact__bottom--container{
+    background-color:#7fc1ee;
+    border:1.5px solid #1a4b79;
+    color:#0e2942;
+    border-radius:10px;
+    text-align:center;
+    padding: 2px 2px 2px 2px;
+    width:200px;
+}
+.projects__menu--footer-boton:hover,
+.contact__bottom--container:hover{
+    background-color:antiquewhite;
+}
+.projects__menu--base{
+    width:800px;
+    padding: 20px 20px 20px 20px;
+    background-color:#1066df1f;
+    border:0.5px solid #2face6d5;
+    border-radius:15px
+}
+.projects__menu--repository,
+.projects__menu--play,
+.contact__bottom--in{
+    text-decoration:none;
+}
+
+/*Sección formulario*/
+.forms--text{
+    font-weight:600;
+}
+.forms--input{
+    width:100%;
+    height:30px;
+}
+.forms--input-message{
+    width:100%;
+    height:150px;
+}
+
+/*Pie de página*/
+.footer{
+    width:1000px;
+    height:100px;
+    background-color:#1066df1f;
+    border:0.5px solid #2face6d5;
+    border-radius:15px;
+    color: #4f575f;
+}
